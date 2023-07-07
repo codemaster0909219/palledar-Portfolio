@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI Designer",
       icon: creator,
     },
   ];
@@ -108,10 +108,7 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
