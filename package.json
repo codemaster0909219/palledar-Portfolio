@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "https://Sankalpd19.github.io/#dPortfolio",
     "dev":"vite",
     "start": "vite",
     "predeploy": "npm run build",
