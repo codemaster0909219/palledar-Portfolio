@@ -14,14 +14,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,codechef,Portfolio,
+    zombie,
+    threejs,codechef,Portfolio,te,
   } from "../assets";
   
   export const navLinks = [
@@ -187,49 +181,49 @@ import {
         },
       ],
       image: Portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Sankalpd19/3dPortfolio",
     },
     {
-      name: "Job IT",
+      name: "Tech Escapade",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Tech Escapade is a online treasure hunt website which provides an entry point into the technical adventure.It is an interactive game website developed using React Js and various libraries like GSAP for animation providing a login page for the participants and presenting the details , first level of the game.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "GSAP",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: te,
+      source_code_link: "https://sankalpd19.github.io/TechEscapade2021/",
     },
     {
-      name: "Trip Guide",
+      name: "Zombie Mania",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A 2D endless runner game using Unity and Csharp featuring a post apocalyptic setting. It includes beautifully designed characters and levels made in photoshop and Figma.",
       tags: [
         {
-          name: "nextjs",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "c-sharp",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: zombie,
+      source_code_link: "https://sankalpd19.itch.io/zombie-mania",
     },
   ];
   

@@ -29,6 +29,8 @@ import Portfolio from "./3dPortfolio.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import te from "./techescapade.png";
+import zombie from "./zombiemania.png";
 
 export {
   logo,
@@ -59,5 +61,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  Portfolio
+  Portfolio,te,zombie,
 };
