@@ -16,13 +16,12 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs,codechef,Portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -113,57 +112,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Event Head",
+      company_name: "•Tech Marathon-Annual Event of Dduc",
+      icon: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/64109e5f8efbf_Deen_Dayal_Upadhyaya_Colleges_official_logo.jpeg?d=110x110",
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2021 - Mar 2021",
       points: [
+        " Successfully conducted an online treasure hunt event for Deen Dayal Upadhyaya college’s Annual Tech Fest.",
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Collaborating with cross-functional teams and other developers to create the events website.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Social Media Lead",
+      company_name: "Dduc’s CodeChef Chapter",
+      icon: codechef,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2020 - Mar 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        " Worked as the social media and graphics lead for my college’s CodeChef chapter responsible for making posters,advertisement of various competitive programming events organized.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+      
   ];
   
   const testimonials = [
@@ -195,16 +168,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio Website 3D",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web based portfolio to display details about me and my projects.It has advanced 3d graphics as well as animations developed using Three js and framer-motion",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Threejs",
           color: "green-text-gradient",
         },
         {
@@ -212,7 +185,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: Portfolio,
       source_code_link: "https://github.com/",
     },
     {
