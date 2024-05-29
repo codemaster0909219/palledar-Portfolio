@@ -1,10 +1,10 @@
 {
-  "name": "sankalp-3d-portfolio",
+  "name": "Alex-3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://Sankalpd19.github.io/#dPortfolio",
+    "homepage": "https://Alexd19.github.io/#dPortfolio",
     "dev":"vite",
     "start": "vite",
     "predeploy": "npm run build",

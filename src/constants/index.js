@@ -181,7 +181,7 @@ import {
         },
       ],
       image: Portfolio,
-      source_code_link: "https://github.com/Sankalpd19/3dPortfolio",
+      source_code_link: "https://github.com/Alexd19/3dPortfolio",
     },
     {
       name: "Tech Escapade",
@@ -202,7 +202,7 @@ import {
         },
       ],
       image: te,
-      source_code_link: "https://sankalpd19.github.io/TechEscapade2021/",
+      source_code_link: "https://Alexd19.github.io/TechEscapade2021/",
     },
     {
       name: "Zombie Mania",
@@ -223,7 +223,7 @@ import {
         },
       ],
       image: zombie,
-      source_code_link: "https://sankalpd19.itch.io/zombie-mania",
+      source_code_link: "https://Alexd19.itch.io/zombie-mania",
     },
   ];
   
