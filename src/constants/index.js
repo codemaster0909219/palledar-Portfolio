@@ -124,17 +124,14 @@ import {
   
   const experiences = [
     {
-      title: "Senior Engineer",
+      title: "Senior Software Engineer",
       company_name: "Ingram Micro",
       icon: "/ingram.png",
       iconBg: "rgb(230, 222, 221)",
       date: "May 2023 - Present",
       points: [
-        " Led the development of a dynamic e-commerce platform incorporating AI-driven product recommendations, boosting user engagement and sales.",
-        "Designed and implemented an intelligent chatbot using NLP to enhance customer support, reducing response times by 30%",
-        "Developed and maintained web applications with a focus on scalability, security, and performance.",
-        "Collaborated with cross-functional teams to integrate machine learning models into web solutions, providing real-time data insights.",
-        "Managed cloud-based deployments, ensuring high availability and robustness of web applications.",
+        "	Constructed a vendor command center, driving $30 million in measurable outcomes.",
+        "Orchestrated regular code review sessions and knowledge-sharing workshops, resulting in a 40% improvement in team members' coding standards and a 50% reduction in onboarding time for new developers.",
       ],
     },
     {
