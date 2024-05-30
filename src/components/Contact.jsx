@@ -26,18 +26,21 @@ const Contact = () => {
 
   }
   const handleSubmit=(e)=>{
+    
     e.preventDefault();
     setLoading(true);
-    emailjs.send("service_b0stj4f",
-    "template_m5471tf",
+    console.log('==================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>');
+    console.log(form.email);
+    emailjs.send("service_zxwkc8i",
+    "template_290qcva",
     {
       from_name:form.name,
       to_name:"Alex",
       from_email: form.email,
-      to_email:"sanklp.d19@gmail.com",
+      to_email:"crveskig@gmail.com",
       message:form.message,
     },
-    "fFT_bs9SC784YHkUQ"
+    "p1IKxKE7bREMYcFfC"
     ).then(()=>{
       setLoading(false);
       alert("Thank You. I will get back to you as soon as possible");

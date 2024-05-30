@@ -3,6 +3,10 @@ import {
     backend,
     creator,
     web,
+    AI,
+    keras,
+    pytorch,
+    tensorflow,
     javascript,
     typescript,
     html,
@@ -14,6 +18,9 @@ import {
     mongodb,
     git,
     figma,
+    summarizer,
+    tiktok,
+    lyriks,
     zombie,
     threejs,codechef,Portfolio,te,
   } from "../assets";
@@ -22,6 +29,10 @@ import {
     {
       id: "about",
       title: "About",
+    },
+    {
+      id: "experience",
+      title: "Experience",
     },
     {
       id: "work",
@@ -39,6 +50,10 @@ import {
       icon: web,
     },
     {
+      title: "AI Developer",
+      icon: AI,
+    },
+    {
       title: "React Native Developer",
       icon: mobile,
     },
@@ -47,7 +62,7 @@ import {
       icon: backend,
     },
     {
-      title: "UI Designer",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -72,6 +87,10 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "PyTorch",
+      icon: pytorch,
     },
     {
       name: "Redux Toolkit",
@@ -101,33 +120,45 @@ import {
       name: "figma",
       icon: figma,
     },
-   
   ];
   
   const experiences = [
     {
-      title: "Event Head",
-      company_name: "•Tech Marathon-Annual Event of Dduc",
-      icon: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/64109e5f8efbf_Deen_Dayal_Upadhyaya_Colleges_official_logo.jpeg?d=110x110",
-      iconBg: "#383E56",
-      date: "Feb 2021 - Mar 2021",
+      title: "Senior Engineer",
+      company_name: "Ingram Micro",
+      icon: "/ingram.png",
+      iconBg: "rgb(230, 222, 221)",
+      date: "May 2023 - Present",
       points: [
-        " Successfully conducted an online treasure hunt event for Deen Dayal Upadhyaya college’s Annual Tech Fest.",
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams and other developers to create the events website.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        
+        " Led the development of a dynamic e-commerce platform incorporating AI-driven product recommendations, boosting user engagement and sales.",
+        "Designed and implemented an intelligent chatbot using NLP to enhance customer support, reducing response times by 30%",
+        "Developed and maintained web applications with a focus on scalability, security, and performance.",
+        "Collaborated with cross-functional teams to integrate machine learning models into web solutions, providing real-time data insights.",
+        "Managed cloud-based deployments, ensuring high availability and robustness of web applications.",
       ],
     },
     {
-      title: "Social Media Lead",
-      company_name: "Dduc’s CodeChef Chapter",
-      icon: codechef,
-      iconBg: "#383E56",
-      date: "Mar 2020 - Mar 2021",
+      title: "Senior Frontend Engineer",
+      company_name: "Dapper Labs",
+      icon: "/dapper.png",
+      iconBg: "rgb(230, 222, 221)",
+      date: "May 2022 - Apr 2023",
       points: [
-        " Worked as the social media and graphics lead for my college’s CodeChef chapter responsible for making posters,advertisement of various competitive programming events organized.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Architect and implement robust frontend solutions using React, TypeScript, and Redux, optimizing for performance and scalability.",
+        "Collaborate closely with product managers, designers, and backend engineers to deliver new features and enhancements.",
+        "Mentor junior developers and conduct code reviews, fostering a culture of continuous improvement and high-quality code.",
+        "Spearhead the integration of modern frontend best practices, including component-based architecture and automated testing frameworks.",
+      ],
+    },
+    {
+      title: "Senior Frontend Engineer",
+      company_name: "Binance",
+      icon: "/binance.png",
+      iconBg: "rgb(56, 62, 86)",
+      date: "Mar 2021 - Apr 2022",
+      points: [
+        " Established the implementation of automated data refresh processes, decreasing data staleness by 50% and enabling the team to react swiftly to market shifts, leading to a 25% increase in market share.",
+        "Executed the deployment of unit and end-to-end tests for a robust codebase, which led to a 50% decrease in post-release.",
       ],
     },
       
@@ -137,93 +168,96 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Rajesh Venugopal",
+      designation: "Direct of Engineering",
+      company: "Ingram Micro",
+      image: "/CTOs/7.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
       name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      designation: "Project Manager",
+      company: "Dapper Labs",
+      image: "/CTOs/5.jpg",
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "Alexei Gura",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "America's Frontline Doctors",
+      image: "/CTOs/3.jpg",
     },
   ];
   
 
   const projects = [
     {
-      name: "Portfolio Website 3D",
+      name: "Tiktik",
       description:
-        "Web based portfolio to display details about me and my projects.It has advanced 3d graphics as well as animations developed using Three js and framer-motion",
+        "Our TikTok Clone Application includes Google Auth, the ability to upload, publish, share, comment on, and like the videos; filtering by categories and advanced search functionalities, profile pages, suggested accounts, custom responsive design, and much more.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Threejs",
+          name: "Sanity",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: Portfolio,
-      source_code_link: "https://github.com/Alexd19/3dPortfolio",
+      image: tiktok,
+      site_link: "https://tiktok-mimic.vercel.app",
+      source_code_link: "https://github.com/Sankalpd19/3dPortfolio",
     },
     {
-      name: "Tech Escapade",
+      name: "Lyriks",
       description:
-        "Tech Escapade is a online treasure hunt website which provides an entry point into the technical adventure.It is an interactive game website developed using React Js and various libraries like GSAP for animation providing a login page for the participants and presenting the details , first level of the game.",
+        "Master modern web development by building an improved version of Spotify. With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more",
       tags: [
         {
-          name: "react",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "GSAP",
+          name: "RapidAPI",
           color: "green-text-gradient",
         },
         {
-          name: "figma",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: te,
-      source_code_link: "https://Alexd19.github.io/TechEscapade2021/",
+      image: lyriks,
+      site_link: "https://lyriks-mimic.netlify.app",
+      source_code_link: "https://sankalpd19.github.io/TechEscapade2021/",
     },
     {
-      name: "Zombie Mania",
+      name: "Summarizer",
       description:
-        "A 2D endless runner game using Unity and Csharp featuring a post apocalyptic setting. It includes beautifully designed characters and levels made in photoshop and Figma.",
+        "Simplify your reading with Summize, an open-source article summarizer that transforms length articles into clear and concise sumaries",
       tags: [
         {
-          name: "unity",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "c-sharp",
+          name: "ChatGPT",
           color: "green-text-gradient",
         },
         {
-          name: "figma",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: zombie,
-      source_code_link: "https://Alexd19.itch.io/zombie-mania",
+      image: summarizer,
+      site_link: "https://ai-summarizer-zeta.vercel.app",
+      source_code_link: "https://sankalpd19.itch.io/zombie-mania",
     },
   ];
   
