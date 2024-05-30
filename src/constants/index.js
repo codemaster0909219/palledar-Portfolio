@@ -259,6 +259,72 @@ import {
       site_link: "https://ai-summarizer-zeta.vercel.app",
       source_code_link: "https://github.com/crveskig/ai-summarizer.git",
     },
+    {
+      name: "Maxfood",
+      description:
+        "This website has a user-friendly interface for customers to browse products and make purchases. It also has an admin portal for managing orders, inventory, and shipping,",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1679495725/samples/ecommerce/Screen_Shot_2023-03-22_at_17.35.01_zgh1fa.png",
+      site_link: "https://www.max-food.pl/",
+      source_code_link: "https://github.com/crveskig/max-food.git",
+    },
+    {
+      name: "YelpCamp",
+      description:
+        "Lets users share and rate campgrounds they have visited, with an interactive interface for easy navigation. It provides valuable insights and recommendations for other campers.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1681036206/samples/ecommerce/Screen_Shot_2023-04-09_at_1.28.45_PM_p8dtn5.png",
+      site_link: "https://yelpcamps.vercel.app/",
+      source_code_link: "https://github.com/crveskig/yelpcampV3.git",
+    },
+    {
+      name: "Kanban",
+      description:
+        "Simplify your reading with Summize, an open-source article summarizer that transforms length articles into clear and concise sumaries",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1679498944/samples/ecommerce/Screen_Shot_2023-03-22_at_18.29.00_nxhmmd.png",
+      site_link: "https://kanbans.vercel.app/",
+      source_code_link: "https://github.com/crveskig/kanban.git",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
