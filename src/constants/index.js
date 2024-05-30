@@ -167,7 +167,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Alex proved me wrong.",
       name: "Rajesh Venugopal",
       designation: "Direct of Engineering",
       company: "Ingram Micro",
@@ -175,7 +175,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Alex does.",
       name: "Chris Brown",
       designation: "Project Manager",
       company: "Dapper Labs",
@@ -183,7 +183,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Alex optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Alexei Gura",
       designation: "CTO",
       company: "America's Frontline Doctors",
@@ -213,7 +213,7 @@ import {
       ],
       image: tiktok,
       site_link: "https://tiktok-mimic.vercel.app",
-      source_code_link: "https://github.com/Sankalpd19/3dPortfolio",
+      source_code_link: "https://github.com/crveskig/tiktok-mimic.git",
     },
     {
       name: "Lyriks",
@@ -235,7 +235,7 @@ import {
       ],
       image: lyriks,
       site_link: "https://lyriks-mimic.netlify.app",
-      source_code_link: "https://sankalpd19.github.io/TechEscapade2021/",
+      source_code_link: "https://github.com/crveskig/lyriks.git",
     },
     {
       name: "Summarizer",
@@ -257,7 +257,7 @@ import {
       ],
       image: summarizer,
       site_link: "https://ai-summarizer-zeta.vercel.app",
-      source_code_link: "https://sankalpd19.itch.io/zombie-mania",
+      source_code_link: "https://github.com/crveskig/ai-summarizer.git",
     },
   ];
   

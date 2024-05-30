@@ -26,11 +26,12 @@ const Contact = () => {
 
   }
   const handleSubmit=(e)=>{
-    
     e.preventDefault();
+    if(!form.email) {
+      
+      return;
+    }
     setLoading(true);
-    console.log('==================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>');
-    console.log(form.email);
     emailjs.send("service_zxwkc8i",
     "template_290qcva",
     {
