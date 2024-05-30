@@ -141,10 +141,8 @@ import {
       iconBg: "rgb(230, 222, 221)",
       date: "May 2022 - Apr 2023",
       points: [
-        " Architect and implement robust frontend solutions using React, TypeScript, and Redux, optimizing for performance and scalability.",
-        "Collaborate closely with product managers, designers, and backend engineers to deliver new features and enhancements.",
-        "Mentor junior developers and conduct code reviews, fostering a culture of continuous improvement and high-quality code.",
-        "Spearhead the integration of modern frontend best practices, including component-based architecture and automated testing frameworks.",
+        "	Architected and implemented innovative NFT marketplace solutions for industry-leading platforms Genius and NBATopShot, resulting in a 3x boost in revenue and a 40% increase in active user base.",
+        "Championed the creation of modular design system with 30+ reusable components, leading to a 25% increase in design consistency and a 20% boost in development efficiency.",
       ],
     },
     {
