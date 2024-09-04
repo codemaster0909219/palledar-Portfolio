@@ -4,6 +4,7 @@ import {
     creator,
     web,
     AI,
+    BC,
     keras,
     pytorch,
     tensorflow,
@@ -23,6 +24,12 @@ import {
     lyriks,
     zombie,
     threejs,codechef,Portfolio,te,
+    meta1Exchange,
+    Meta1Litewallet,
+    Meta1CoinTrust,
+    Meta1Explorer,
+    ECOSwap,
+    AurixExchange,
   } from "../assets";
   
   export const navLinks = [
@@ -50,12 +57,12 @@ import {
       icon: web,
     },
     {
-      title: "AI Developer",
-      icon: AI,
+      title: "BlockChain Developer",
+      icon: BC,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "AI Developer",
+      icon: AI,
     },
     {
       title: "Backend Developer",
@@ -81,6 +88,10 @@ import {
       icon: javascript,
     },
     {
+      name: "Blockchain",
+      icon: BC,
+    },
+    {
       name: "TypeScript",
       icon: typescript,
     },
@@ -91,10 +102,6 @@ import {
     {
       name: "PyTorch",
       icon: pytorch,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -116,44 +123,91 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
   ];
   
   const experiences = [
     {
-      title: "Senior Software Engineer",
-      company_name: "Ingram Micro",
-      icon: "/ingram.png",
-      iconBg: "rgb(230, 222, 221)",
-      date: "May 2023 - Present",
+      title: "Lead Developer",
+      company_name: "Meta1 Coin Trust",
+      icon: "/meta1.jpg",
+      iconBg: "rgb(255, 255, 255)",
+      date: "Feb 2022 - Present",
       points: [
-        "	Constructed a vendor command center, driving $30 million in measurable outcomes.",
-        "Orchestrated regular code review sessions and knowledge-sharing workshops, resulting in a 40% improvement in team members' coding standards and a 50% reduction in onboarding time for new developers.",
+        "	As Lead Developer for Meta-Exchange, I built both the backend with Solidity and Node.js and the frontend with React for a secure, dynamic decentralized trading platform with real-time features.",
+        "I led the development of Meta1 Explorer, a blockchain explorer with a Node.js and Python backend for data processing and SQL integration, and a React frontend for user-friendly access to transaction history, block details, and smart contract interactions, addressing performance challenges and ensuring real-time data accuracy.",
+        "I developed Meta1 Litewallet, a lightweight cryptocurrency wallet, handling both backend and frontend tasks; using Node.js and Solidity for secure transaction processing and smart contract interactions, SQLite for local storage, and React for an intuitive interface, with a strong focus on security features like encryption and multi-signature support.",
+        "I developed Meta1 Coin as part of the Meta1 ecosystem, handling smart contract development with Solidity for token management, integrating with the platform using Node.js, and creating a React frontend for managing coins, viewing transactions, and interacting with the token, with a focus on security and performance."
       ],
     },
     {
-      title: "Senior Frontend Engineer",
-      company_name: "Dapper Labs",
-      icon: "/dapper.png",
-      iconBg: "rgb(230, 222, 221)",
-      date: "May 2022 - Apr 2023",
+      title: "Full Stack & Smart Contracts Developer",
+      company_name: "Ment Tech",
+      icon: "/menttech.jpg",
+      iconBg: "rgb(255, 255, 255)",
+      date: "Aug 2021 - Apr 2022",
       points: [
-        "	Architected and implemented innovative NFT marketplace solutions for industry-leading platforms Genius and NBATopShot, resulting in a 3x boost in revenue and a 40% increase in active user base.",
-        "Championed the creation of modular design system with 30+ reusable components, leading to a 25% increase in design consistency and a 20% boost in development efficiency.",
+        "	ECO Swap is a decentralized exchange (DEX) platform designed for token trading and liquidity management. As a Full Stack Developer, I developed both frontend and backend components. On the backend, I used Node.js and Solidity to build and deploy smart contracts for managing trades and liquidity pools. On the frontend, I utilized React to create a user-friendly interface for executing trades and interacting with the platform. The project involved integrating blockchain functionalities and ensuring the platform could handle high transaction volumes securely and efficiently.",
+        "World Crypto Exchange is a blockchain-based platform for managing and trading cryptocurrencies. In this role, I worked on developing the core features of the platform, including smart contract implementation and integration. I used React for the frontend to provide a seamless trading experience and Node.js with MongoDB on the backend to handle user data and transaction processing. My contributions ensured a secure and user-friendly interface for cryptocurrency trading, meeting the needs of both novice and experienced traders.",
       ],
     },
     {
-      title: "Senior Frontend Engineer",
-      company_name: "Binance",
-      icon: "/binance.png",
-      iconBg: "rgb(56, 62, 86)",
-      date: "Mar 2021 - Apr 2022",
+      title: "Lead Developer",
+      company_name: "colle.ge",
+      icon: "/college.png",
+      iconBg: "rgb(255, 255, 255)",
+      date: "Jan 2020 - Dec 2021",
       points: [
-        " Established the implementation of automated data refresh processes, decreasing data staleness by 50% and enabling the team to react swiftly to market shifts, leading to a 25% increase in market share.",
-        "Executed the deployment of unit and end-to-end tests for a robust codebase, which led to a 50% decrease in post-release.",
+        " As a Lead Developer at colle.ge, I played a critical role in the development and maintenance of an educational platform designed to enhance the learning experience for students and educators. The platform was built using AngularJS for the frontend, .NET for backend services, and MSSQL for database management. My responsibilities included architecting the system, implementing key features, and ensuring the platform's overall performance, scalability, and security.",
+      ],
+    },
+    {
+      title: "Front-End Developer (Gatsby Developer)",
+      company_name: "SpillAgency",
+      icon: "/spillagency.png",
+      iconBg: "rgb(0, 0, 0)",
+      date: "Jan 2020 - Jan 2021",
+      points: [
+        " At SpillAgency, I worked as a Front-End Developer focusing on building and enhancing an e-commerce platform and ordering system. My primary role involved using Gatsby and GraphQL to develop a fast, scalable, and SEO-friendly front end for the platform. I played a key role in creating a seamless and interactive user experience, ensuring that the platform was both visually appealing and highly functional.",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "Resmio",
+      icon: "/resmio.png",
+      iconBg: "rgb(255, 255, 255)",
+      date: "Apr 2019 - Jun 2020",
+      points: [
+        " At Resmio, I worked as a Full Stack Developer on a comprehensive platform designed to manage restaurant reservations and customer interactions. The platform aimed to streamline the booking process for both customers and restaurant staff, offering features that improved operational efficiency and enhanced the dining experience.",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "Arbox",
+      icon: "/arbox.png",
+      iconBg: "rgb(0, 210, 130)",
+      date: "Jan 2019 - Oct 2019",
+      points: [
+        " At Arbox, I served as a Full Stack Developer, contributing to the development of a business management platform aimed at fitness centers and gyms. The platform was designed to help businesses manage various aspects of their operations, including scheduling, billing, customer management, and communication.",
+      ],
+    },
+    {
+      title: "iOS and Android Developer",
+      company_name: "PinTalk",
+      icon: "/pintalk.png",
+      iconBg: "rgb(0, 0, 0)",
+      date: "Aug 2018 - Dec 2018",
+      points: [
+        " At PinTalk, I worked as an iOS and Android Developer, focusing on developing a real-time messaging and location-based service application. The app was designed to facilitate communication between users while providing location-based features that enhanced the overall user experience.",
+      ],
+    },
+    {
+      title: "Software Engineer & Architect",
+      company_name: "Mattermost",
+      icon: "/mattermost.png",
+      iconBg: "rgb(255, 255, 255)",
+      date: "Aug 2018 - Present",
+      points: [
+        " As a Software Engineer on the Mattermost Internal Tool project, I was responsible for developing and maintaining a tool designed to streamline internal collaboration and management processes within the organization. The tool was built to improve communication, task management, and workflow automation for Mattermost’s internal teams",
       ],
     },
       
@@ -162,83 +216,87 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Alex proved me wrong.",
-      name: "Rajesh Venugopal",
-      designation: "Direct of Engineering",
-      company: "Ingram Micro",
-      image: "/CTOs/7.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Kok proved me wrong.",
+      name: "Robert Dunlap",
+      designation: "CEO",
+      company: "Meta1 Coin Trust",
+      image: "/CTOs/robert.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Alex does.",
-      name: "Chris Brown",
-      designation: "Project Manager",
-      company: "Dapper Labs",
-      image: "/CTOs/5.jpg",
+        "I've never met a developer who truly cares about their clients' success like Kok does.",
+      name: "Ujjwal Sahay",
+      designation: "CEO & MD",
+      company: "Ment Tech",
+      image: "/CTOs/ujjwal.jpg",
     },
     {
       testimonial:
-        "After Alex optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Alexei Gura",
-      designation: "CTO",
-      company: "America's Frontline Doctors",
-      image: "/CTOs/3.jpg",
+        "After Kok optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Rodrigo Lara",
+      designation: "COO",
+      company: "weLove.education",
+      image: "/CTOs/rodrigo.jpg",
     },
   ];
   
 
   const projects = [
     {
-      name: "Tiktik",
+      name: "Meta1 Exchange",
       description:
-        "Our TikTok Clone Application includes Google Auth, the ability to upload, publish, share, comment on, and like the videos; filtering by categories and advanced search functionalities, profile pages, suggested accounts, custom responsive design, and much more.",
+        "Meta-Exchange is a decentralized exchange (DEX) platform that facilitates cryptocurrency trading without the need for a central authority or intermediary. Built on blockchain technology, it leverages smart contracts to execute trades and manage liquidity automatically, providing users with security, transparency, and control over their assets.",
       tags: [
         {
           name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Sanity",
+          name: "Node",
           color: "green-text-gradient",
         },
         {
-          name: "TailwindCSS",
+          name: "Websocket",
           color: "pink-text-gradient",
         },
+        {
+          name: "ElasticSearch",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tiktok,
-      site_link: "https://tiktok-mimic.vercel.app",
-      source_code_link: "https://github.com/crveskig/tiktok-mimic.git",
+      image: meta1Exchange,
+      site_link: "https://meta-exchange.vision/market/META1_USDT",
+      source_code_link: "#about",
     },
     {
-      name: "Lyriks",
+      name: "Meta1 Litewallet",
       description:
-        "Master modern web development by building an improved version of Spotify. With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more",
+        "Meta1 Litewallet is a lightweight cryptocurrency wallet that provides users with a secure, user-friendly interface for managing their digital assets, specifically the Meta1 Coin and other cryptocurrencies within the Meta1 ecosystem. It is designed to be easily accessible and efficient way to send, receive, and store crypto assets.",
       tags: [
         {
           name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "RapidAPI",
+          name: "Web3",
           color: "green-text-gradient",
         },
         {
-          name: "SCSS",
+          name: "Biometric",
           color: "pink-text-gradient",
         },
       ],
-      image: lyriks,
-      site_link: "https://lyriks-mimic.netlify.app",
-      source_code_link: "https://github.com/crveskig/lyriks.git",
+      image: Meta1Litewallet,
+      site_link: "https://wallet.meta1coin.vision",
+      source_code_link: "",
     },
     {
-      name: "Summarizer",
+      name: "Meta1 Coin Trust",
       description:
-        "Simplify your reading with Summize, an open-source article summarizer that transforms length articles into clear and concise sumaries",
+        "Meta1 Coin Trust is the official platform for the Meta1 project, which focuses on a decentralized cryptocurrency ecosystem aimed at promoting financial freedom, asset-backed tokens, and a secure way to store and transfer value. The platform showcases Meta1 Coin’s mission, vision, and technical aspects",
       tags: [
         {
-          name: "Nextjs",
+          name: ".NET",
           color: "blue-text-gradient",
         },
         {
@@ -246,80 +304,92 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Finance",
           color: "pink-text-gradient",
         },
+        {
+          name: "SAAS",
+          color: "orange-text-gradient",
+        },
       ],
-      image: summarizer,
-      site_link: "https://ai-summarizer-zeta.vercel.app",
-      source_code_link: "https://github.com/crveskig/ai-summarizer.git",
+      image: Meta1CoinTrust,
+      site_link: "https://meta1coin.vision/",
+      source_code_link: "",
     },
     {
-      name: "Maxfood",
+      name: "Meta1 Explorer",
       description:
-        "This website has a user-friendly interface for customers to browse products and make purchases. It also has an admin portal for managing orders, inventory, and shipping,",
+        "Meta1 Explorer is a blockchain explorer tool that allows users to view and analyze transaction data, block information, and smart contract interactions on the Meta1 blockchain. It provides a user-friendly interface for tracking blockchain activity, enabling users to explore the details of their transactions, monitor the status of the Meta1 blockchain, and gain transparency into the decentralized network.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ElasticSearch",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Web3",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: Meta1Explorer,
+      site_link: "https://explorer.meta1coin.vision/",
+      source_code_link: "",
+    },
+    {
+      name: "ECO Swap",
+      description:
+        "ECO Swap is a DEX platform that enables users to swap cryptocurrencies directly, without the need for intermediaries or centralized authorities. It provides a secure, efficient, and transparent environment for trading tokens in a DeFi ecosystem. Built using smart contracts, ECO Swap automates the process of token exchanges through liquidity pools and AMM, ensuring that trades are executed quickly and efficiently.",
       tags: [
         {
           name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "Typescript",
+          name: "Web3",
           color: "green-text-gradient",
         },
         {
-          name: "Mongodb",
+          name: "Smart Contracts",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1679495725/samples/ecommerce/Screen_Shot_2023-03-22_at_17.35.01_zgh1fa.png",
-      site_link: "https://www.max-food.pl/",
-      source_code_link: "https://github.com/crveskig/max-food.git",
+      image: ECOSwap,
+      site_link: "https://ecoswap-dev.netlify.app/",
+      source_code_link: "",
     },
     {
-      name: "YelpCamp",
+      name: "Aurix Exchange",
       description:
-        "Lets users share and rate campgrounds they have visited, with an interactive interface for easy navigation. It provides valuable insights and recommendations for other campers.",
+        "Aurix Exchange is a cryptocurrency trading platform that offers a seamless, secure, and efficient way for users to buy, sell, and trade digital assets. Built with an emphasis on security and user experience, Aurix Exchange allows users to trade a wide variety of cryptocurrencies while benefiting from cutting-edge technology such as blockchain integration, advanced trading tools, and DeFi functionalities.",
       tags: [
         {
-          name: "Nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Typescript",
+          name: "Web3",
           color: "green-text-gradient",
         },
         {
           name: "Mongodb",
           color: "pink-text-gradient",
         },
-      ],
-      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1681036206/samples/ecommerce/Screen_Shot_2023-04-09_at_1.28.45_PM_p8dtn5.png",
-      site_link: "https://yelpcamps.vercel.app/",
-      source_code_link: "https://github.com/crveskig/yelpcampV3.git",
-    },
-    {
-      name: "Kanban",
-      description:
-        "Simplify your reading with Summize, an open-source article summarizer that transforms length articles into clear and concise sumaries",
-      tags: [
         {
-          name: "Nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Typescript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Mongodb",
-          color: "pink-text-gradient",
+          name: "StoryBoard",
+          color: "orange-text-gradient",
         },
       ],
-      image: "https://res.cloudinary.com/dddvtrxcz/image/upload/v1679498944/samples/ecommerce/Screen_Shot_2023-03-22_at_18.29.00_nxhmmd.png",
-      site_link: "https://kanbans.vercel.app/",
-      source_code_link: "https://github.com/crveskig/kanban.git",
-    },
+      image: AurixExchange,
+      site_link: "https://www.aurix.exchange/",
+      source_code_link: "",
+    },    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

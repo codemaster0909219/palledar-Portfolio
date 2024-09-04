@@ -30,16 +30,16 @@ const AwardCard = () => {
           </h3>
           <div className="mt-4 text-secondary text-[14px]">
             <div className="flex flex-row items-center justify-center gap-2">
-              <div className="bg-[#1d1836] w-14 h-14 border-gray-600 border-2 rounded-full p-2">
+              <div className="bg-[#ffffff] w-14 h-14 border-gray-600 border-2 rounded-full p-2">
                 <img
-                  src={"/ingram.png"}
+                  src={"/meta1.jpg"}
                   className="w-full h-full object-contain"
                   alt="company_log"
                 />
               </div>
               <div>
-                <p className="text-white font-medium mb-2">Ingram Micro</p>
-                <p>Aug 2023</p>
+                <p className="text-white font-medium mb-2">Meta1 Coin Trust</p>
+                <p>Aug 2022</p>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@
   "scripts": {
     "homepage": "https://Alexd19.github.io/#dPortfolio",
     "dev": "vite",
-    "start": "vite",
+    "start": "vite --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
@@ -24,6 +24,7 @@
     "react-icon-cloud": "^4.1.4",
     "react-router-dom": "^6.14.1",
     "react-tilt": "^1.0.2",
+    "react-toastify": "^10.0.5",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.154.0"
   },

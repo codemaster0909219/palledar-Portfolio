@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import AI from "./AI.png";
+import BC from "./BC.png";
 import keras from "./keras.png";
 import pytorch from "./pytorch.png";
 import tensorflow from "./tensorflow.png";
@@ -40,6 +41,14 @@ import tripguide from "./tripguide.png";
 import te from "./techescapade.png";
 import zombie from "./zombiemania.png";
 
+import meta1Exchange from "./meta1Exchange.png";
+import Meta1Litewallet from "./Meta1Litewallet.png";
+import Meta1CoinTrust from "./Meta1CoinTrust.png";
+import Meta1Explorer from "./Meta1Explorer.png";
+import ECOSwap from "./ECOSwap.png";
+import AurixExchange from "./AurixExchange.png";
+
+
 export {
   logo,
   backend,
@@ -47,6 +56,7 @@ export {
   mobile,
   web,
   AI,
+  BC,
   keras,
   pytorch,
   tensorflow,
@@ -78,4 +88,10 @@ export {
   summarizer,
   tiktok,
   lyriks,
+  meta1Exchange,
+  Meta1Litewallet,
+  Meta1CoinTrust,
+  Meta1Explorer,
+  ECOSwap,
+  AurixExchange,
 };

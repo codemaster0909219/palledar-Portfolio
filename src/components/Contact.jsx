@@ -6,9 +6,9 @@ import { styles } from "../styles"
 import {EarthCanvas} from './canvas';
 import { SectionWrapper } from "../hoc"
 import { slideIn } from '../utils/motion'
-// fFT_bs9SC784YHkUQ public key
-// template_m5471tf 
-// service_b0stj4f 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Contact = () => {
 
   const formRef=useRef();
@@ -28,23 +28,22 @@ const Contact = () => {
   const handleSubmit=(e)=>{
     e.preventDefault();
     if(!form.email) {
-      
       return;
     }
     setLoading(true);
-    emailjs.send("service_zxwkc8i",
-    "template_290qcva",
+    emailjs.send("service_tbpdxv7",
+    "template_ipqqwd8",
     {
       from_name:form.name,
-      to_name:"Alex",
+      to_name:"Kou Zhang",
       from_email: form.email,
-      to_email:"crveskig@gmail.com",
+      to_email:"antman357357@gmail.com",
       message:form.message,
     },
-    "p1IKxKE7bREMYcFfC"
+    "U9WPEpq8CYqpEQFig"
     ).then(()=>{
       setLoading(false);
-      alert("Thank You. I will get back to you as soon as possible");
+      toast.success("Thank You. I will get back to you as soon as possible.");
       setForm({
         name:"",
         email:"",
@@ -52,8 +51,7 @@ const Contact = () => {
       })
     },(error)=>{
       setLoading(false);
-      console.log(error);
-      alert("Something went wrong")
+      toast.error(error);
     })
   }
 
@@ -114,6 +112,9 @@ const Contact = () => {
       >
         <EarthCanvas/>
       </motion.div>
+      <ToastContainer
+        className="my-toast-container"
+      />
     </div>
   )
 }

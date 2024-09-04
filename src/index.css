@@ -168,6 +168,10 @@ body{
   transform: translateZ(0);
 }
 
+.my-toast-container .Toastify__toast {
+  margin-top: 55px; /* Add spacing between toasts */
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

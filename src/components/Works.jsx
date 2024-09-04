@@ -45,7 +45,7 @@ const ProjectCard = ({
               />
             </div>
 
-            <div
+            {/* <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
@@ -54,7 +54,7 @@ const ProjectCard = ({
                 alt={github}
                 className="w-1/2 h-1/2 object-contain"
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="mt-5 ">
