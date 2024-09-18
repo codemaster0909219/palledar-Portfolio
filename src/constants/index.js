@@ -131,7 +131,7 @@ import {
       company_name: "Meta1 Coin Trust",
       icon: "/meta1.jpg",
       iconBg: "rgb(255, 255, 255)",
-      date: "Feb 2022 - Present",
+      date: "Feb 2021 - Present",
       points: [
         "	As Lead Developer for Meta-Exchange, I built both the backend with Solidity and Node.js and the frontend with React for a secure, dynamic decentralized trading platform with real-time features.",
         "I led the development of Meta1 Explorer, a blockchain explorer with a Node.js and Python backend for data processing and SQL integration, and a React frontend for user-friendly access to transaction history, block details, and smart contract interactions, addressing performance challenges and ensuring real-time data accuracy.",
@@ -144,68 +144,68 @@ import {
       company_name: "Ment Tech",
       icon: "/menttech.jpg",
       iconBg: "rgb(255, 255, 255)",
-      date: "Aug 2021 - Apr 2022",
+      date: "Aug 2019 - Apr 2021",
       points: [
         "	ECO Swap is a decentralized exchange (DEX) platform designed for token trading and liquidity management. As a Full Stack Developer, I developed both frontend and backend components. On the backend, I used Node.js and Solidity to build and deploy smart contracts for managing trades and liquidity pools. On the frontend, I utilized React to create a user-friendly interface for executing trades and interacting with the platform. The project involved integrating blockchain functionalities and ensuring the platform could handle high transaction volumes securely and efficiently.",
         "World Crypto Exchange is a blockchain-based platform for managing and trading cryptocurrencies. In this role, I worked on developing the core features of the platform, including smart contract implementation and integration. I used React for the frontend to provide a seamless trading experience and Node.js with MongoDB on the backend to handle user data and transaction processing. My contributions ensured a secure and user-friendly interface for cryptocurrency trading, meeting the needs of both novice and experienced traders.",
       ],
     },
     {
-      title: "Lead Developer",
+      title: "Senior Fullstack Developer",
       company_name: "colle.ge",
       icon: "/college.png",
       iconBg: "rgb(255, 255, 255)",
-      date: "Jan 2020 - Dec 2021",
+      date: "May 2018 - May 2019",
       points: [
-        " As a Lead Developer at colle.ge, I played a critical role in the development and maintenance of an educational platform designed to enhance the learning experience for students and educators. The platform was built using AngularJS for the frontend, .NET for backend services, and MSSQL for database management. My responsibilities included architecting the system, implementing key features, and ensuring the platform's overall performance, scalability, and security.",
+        " As a Fullstack Developer at colle.ge, I played a critical role in the development and maintenance of an educational platform designed to enhance the learning experience for students and educators. The platform was built using AngularJS for the frontend, .NET for backend services, and MSSQL for database management. My responsibilities included architecting the system, implementing key features, and ensuring the platform's overall performance, scalability, and security.",
       ],
     },
     {
-      title: "Front-End Developer (Gatsby Developer)",
+      title: "Senior Frontend Developer",
       company_name: "SpillAgency",
       icon: "/spillagency.png",
       iconBg: "rgb(0, 0, 0)",
-      date: "Jan 2020 - Jan 2021",
+      date: "Jan 2018 - Mar 2018",
       points: [
         " At SpillAgency, I worked as a Front-End Developer focusing on building and enhancing an e-commerce platform and ordering system. My primary role involved using Gatsby and GraphQL to develop a fast, scalable, and SEO-friendly front end for the platform. I played a key role in creating a seamless and interactive user experience, ensuring that the platform was both visually appealing and highly functional.",
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Senior Frontend Developer",
       company_name: "Resmio",
       icon: "/resmio.png",
       iconBg: "rgb(255, 255, 255)",
-      date: "Apr 2019 - Jun 2020",
+      date: "May 2017 - Dec 2017",
       points: [
-        " At Resmio, I worked as a Full Stack Developer on a comprehensive platform designed to manage restaurant reservations and customer interactions. The platform aimed to streamline the booking process for both customers and restaurant staff, offering features that improved operational efficiency and enhanced the dining experience.",
+        " At Resmio, I worked as a Frontend Developer on a comprehensive platform designed to manage restaurant reservations and customer interactions. The platform aimed to streamline the booking process for both customers and restaurant staff, offering features that improved operational efficiency and enhanced the dining experience.",
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Junior Full Stack Developer",
       company_name: "Arbox",
       icon: "/arbox.png",
       iconBg: "rgb(0, 210, 130)",
-      date: "Jan 2019 - Oct 2019",
+      date: "Sep 2016 - Feb 2017",
       points: [
         " At Arbox, I served as a Full Stack Developer, contributing to the development of a business management platform aimed at fitness centers and gyms. The platform was designed to help businesses manage various aspects of their operations, including scheduling, billing, customer management, and communication.",
       ],
     },
     {
-      title: "iOS and Android Developer",
+      title: "Junior Mobile Developer",
       company_name: "PinTalk",
       icon: "/pintalk.png",
       iconBg: "rgb(0, 0, 0)",
-      date: "Aug 2018 - Dec 2018",
+      date: "Jun 2016 - Jan 2017",
       points: [
         " At PinTalk, I worked as an iOS and Android Developer, focusing on developing a real-time messaging and location-based service application. The app was designed to facilitate communication between users while providing location-based features that enhanced the overall user experience.",
       ],
     },
     {
-      title: "Software Engineer & Architect",
+      title: "Software Engineer Intern",
       company_name: "Mattermost",
       icon: "/mattermost.png",
       iconBg: "rgb(255, 255, 255)",
-      date: "Aug 2018 - Present",
+      date: "Apr 2016 - Jun 2016",
       points: [
         " As a Software Engineer on the Mattermost Internal Tool project, I was responsible for developing and maintaining a tool designed to streamline internal collaboration and management processes within the organization. The tool was built to improve communication, task management, and workflow automation for Mattermost’s internal teams",
       ],
@@ -216,7 +216,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Kok proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Palle proved me wrong.",
       name: "Robert Dunlap",
       designation: "CEO",
       company: "Meta1 Coin Trust",
@@ -224,7 +224,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a developer who truly cares about their clients' success like Kok does.",
+        "I've never met a developer who truly cares about their clients' success like Palle does.",
       name: "Ujjwal Sahay",
       designation: "CEO & MD",
       company: "Ment Tech",
@@ -232,7 +232,7 @@ import {
     },
     {
       testimonial:
-        "After Kok optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Palle optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Rodrigo Lara",
       designation: "COO",
       company: "weLove.education",

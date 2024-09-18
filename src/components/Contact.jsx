@@ -35,9 +35,9 @@ const Contact = () => {
     "template_ipqqwd8",
     {
       from_name:form.name,
-      to_name:"Kou Zhang",
+      to_name:"Palle Dear",
       from_email: form.email,
-      to_email:"antman357357@gmail.com",
+      to_email:"palledear@outlook.com",
       message:form.message,
     },
     "U9WPEpq8CYqpEQFig"
